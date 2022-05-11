@@ -1,0 +1,4 @@
+Important Commands
+
+1. Command to generate components
+=> ng generate component login --skip-tests

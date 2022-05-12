@@ -13,8 +13,9 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { IfElseConditionComponent } from './if-else-condition/if-else-condition.component';
 import { SwitchCasesinAngularComponent } from './switch-casesin-angular/switch-casesin-angular.component';
 import { ForLoopInAngularComponent } from './for-loop-in-angular/for-loop-in-angular.component';
+import { NestedLoopAngularComponent } from './nested-loop-angular/nested-loop-angular.component';
 @NgModule({
-  declarations: [AppComponent, UserListComponent, MakeAndCallFunctionComponent, ImportantEventsComponent, MakeACounterComponent, BasicRuleOfStyleComponent, PropertyBindingComponent, IfElseConditionComponent, SwitchCasesinAngularComponent, ForLoopInAngularComponent, ],
+  declarations: [AppComponent, UserListComponent, MakeAndCallFunctionComponent, ImportantEventsComponent, MakeACounterComponent, BasicRuleOfStyleComponent, PropertyBindingComponent, IfElseConditionComponent, SwitchCasesinAngularComponent, ForLoopInAngularComponent, NestedLoopAngularComponent, ],
   imports: [BrowserModule, AppRoutingModule,UserAuthModule],
   providers: [],
   bootstrap: [AppComponent],

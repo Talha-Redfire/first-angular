@@ -20,6 +20,8 @@ import { FormsModule } from '@angular/forms';
 import { FormInAngularComponent } from './form-in-angular/form-in-angular.component';
 import { MaterialUiInAngularComponent } from './material-ui-in-angular/material-ui-in-angular.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatButtonModule } from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +40,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormInAngularComponent,
     MaterialUiInAngularComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, UserAuthModule, FormsModule, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    UserAuthModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatButtonModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,0 +1,5 @@
+<p>dynamic-style works!</p>
+
+<div *ngFor="let item of colors">
+  <h1 [style.color]="item.hex">This Is Color {{ item.name }}</h1>
+</div>

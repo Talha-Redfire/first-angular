@@ -11,8 +11,9 @@ import { MakeACounterComponent } from './make-acounter/make-acounter.component';
 import { BasicRuleOfStyleComponent } from './basic-rule-of-style/basic-rule-of-style.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { IfElseConditionComponent } from './if-else-condition/if-else-condition.component';
+import { SwitchCasesinAngularComponent } from './switch-casesin-angular/switch-casesin-angular.component';
 @NgModule({
-  declarations: [AppComponent, UserListComponent, MakeAndCallFunctionComponent, ImportantEventsComponent, MakeACounterComponent, BasicRuleOfStyleComponent, PropertyBindingComponent, IfElseConditionComponent, ],
+  declarations: [AppComponent, UserListComponent, MakeAndCallFunctionComponent, ImportantEventsComponent, MakeACounterComponent, BasicRuleOfStyleComponent, PropertyBindingComponent, IfElseConditionComponent, SwitchCasesinAngularComponent, ],
   imports: [BrowserModule, AppRoutingModule,UserAuthModule],
   providers: [],
   bootstrap: [AppComponent],

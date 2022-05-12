@@ -18,6 +18,8 @@ import { DynamicStyleComponent } from './dynamic-style/dynamic-style.component';
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { FormsModule } from '@angular/forms';
 import { FormInAngularComponent } from './form-in-angular/form-in-angular.component';
+import { MaterialUiInAngularComponent } from './material-ui-in-angular/material-ui-in-angular.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,8 +36,9 @@ import { FormInAngularComponent } from './form-in-angular/form-in-angular.compon
     DynamicStyleComponent,
     HeaderComponentComponent,
     FormInAngularComponent,
+    MaterialUiInAngularComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, UserAuthModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, UserAuthModule, FormsModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

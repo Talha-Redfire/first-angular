@@ -23,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
 import { TodoListInAngularComponent } from './todo-list-in-angular/todo-list-in-angular.component';
+import { SendDataParentToChildComponentComponent } from './send-data-parent-to-child-component/send-data-parent-to-child-component.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,6 +42,7 @@ import { TodoListInAngularComponent } from './todo-list-in-angular/todo-list-in-
     FormInAngularComponent,
     MaterialUiInAngularComponent,
     TodoListInAngularComponent,
+    SendDataParentToChildComponentComponent,
   ],
   imports: [
     BrowserModule,

@@ -17,6 +17,7 @@ import { NestedLoopAngularComponent } from './nested-loop-angular/nested-loop-an
 import { DynamicStyleComponent } from './dynamic-style/dynamic-style.component';
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { FormsModule } from '@angular/forms';
+import { FormInAngularComponent } from './form-in-angular/form-in-angular.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +33,7 @@ import { FormsModule } from '@angular/forms';
     NestedLoopAngularComponent,
     DynamicStyleComponent,
     HeaderComponentComponent,
+    FormInAngularComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, UserAuthModule, FormsModule],
   providers: [],

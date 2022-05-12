@@ -12,8 +12,9 @@ import { BasicRuleOfStyleComponent } from './basic-rule-of-style/basic-rule-of-s
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { IfElseConditionComponent } from './if-else-condition/if-else-condition.component';
 import { SwitchCasesinAngularComponent } from './switch-casesin-angular/switch-casesin-angular.component';
+import { ForLoopInAngularComponent } from './for-loop-in-angular/for-loop-in-angular.component';
 @NgModule({
-  declarations: [AppComponent, UserListComponent, MakeAndCallFunctionComponent, ImportantEventsComponent, MakeACounterComponent, BasicRuleOfStyleComponent, PropertyBindingComponent, IfElseConditionComponent, SwitchCasesinAngularComponent, ],
+  declarations: [AppComponent, UserListComponent, MakeAndCallFunctionComponent, ImportantEventsComponent, MakeACounterComponent, BasicRuleOfStyleComponent, PropertyBindingComponent, IfElseConditionComponent, SwitchCasesinAngularComponent, ForLoopInAngularComponent, ],
   imports: [BrowserModule, AppRoutingModule,UserAuthModule],
   providers: [],
   bootstrap: [AppComponent],

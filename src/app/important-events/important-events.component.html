@@ -1,0 +1,14 @@
+<h1>{{ title }}</h1>
+<br />
+<button (click)="getdata()">I triger Events</button>
+<br />
+<br />
+<!-- <input type="text" placeholder="key up" (keyup)="getdata()" /> -->
+
+<!-- <input type="text" name="input" placeholder="Get input value" (keydown)="handleEvent($event)" id=""> -->
+
+<!-- <input type="text" name="input" placeholder="Get input blur" (blur)="handleEvent($event)" id=""> -->
+
+<input type="text" name="input" placeholder="input value" (input)="handleEvent($event)" id="">
+
+{{displayvalue}}

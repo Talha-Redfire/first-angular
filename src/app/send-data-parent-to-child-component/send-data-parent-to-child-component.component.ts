@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SendDataParentToChildComponentComponent implements OnInit {
   constructor() {}
+  // @Input() Item: any = [];
   @Input() Item: any = [];
   ngOnInit(): void {}
 }

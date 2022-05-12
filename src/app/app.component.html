@@ -30,6 +30,14 @@
 <button mat-raised-button disabled>Disabled</button> -->
 
 <!-- <app-todo-list-in-angular></app-todo-list-in-angular> -->
-<app-send-data-parent-to-child-component
+<!-- <app-send-data-parent-to-child-component
   [Item]="TaskList"
-></app-send-data-parent-to-child-component>
+></app-send-data-parent-to-child-component> -->
+
+<!-- Re Use Of Components -->
+
+<div *ngFor="let task of TaskList">
+  <app-send-data-parent-to-child-component
+    [Item]="task"
+  ></app-send-data-parent-to-child-component>
+</div>

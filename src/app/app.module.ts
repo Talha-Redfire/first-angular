@@ -27,6 +27,8 @@ import { SendDataParentToChildComponentComponent } from './send-data-parent-to-c
 import { SendDataChildToParentComponentComponent } from './send-data-child-to-parent-component/send-data-child-to-parent-component.component';
 import { TwoWaybindingComponent } from './two-waybinding/two-waybinding.component';
 import { TemplateReferenceVariableComponent } from './template-reference-variable/template-reference-variable.component';
+import { BasicOfPipesComponent } from './basic-of-pipes/basic-of-pipes.component';
+import { AdvancedPipesComponent } from './advanced-pipes/advanced-pipes.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,6 +51,8 @@ import { TemplateReferenceVariableComponent } from './template-reference-variabl
     SendDataChildToParentComponentComponent,
     TwoWaybindingComponent,
     TemplateReferenceVariableComponent,
+    BasicOfPipesComponent,
+    AdvancedPipesComponent,
   ],
   imports: [
     BrowserModule,

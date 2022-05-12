@@ -22,6 +22,7 @@ import { MaterialUiInAngularComponent } from './material-ui-in-angular/material-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
+import { TodoListInAngularComponent } from './todo-list-in-angular/todo-list-in-angular.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +40,7 @@ import { MatButtonModule } from '@angular/material/button';
     HeaderComponentComponent,
     FormInAngularComponent,
     MaterialUiInAngularComponent,
+    TodoListInAngularComponent,
   ],
   imports: [
     BrowserModule,

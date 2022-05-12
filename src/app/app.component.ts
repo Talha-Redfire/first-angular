@@ -195,4 +195,7 @@ export class AppComponent {
   getTest() {
     return 'Hello World i am output from angular function';
   }
+  childToparent(data: any) {
+    console.log(data);
+  }
 }

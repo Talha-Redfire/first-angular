@@ -24,6 +24,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
 import { TodoListInAngularComponent } from './todo-list-in-angular/todo-list-in-angular.component';
 import { SendDataParentToChildComponentComponent } from './send-data-parent-to-child-component/send-data-parent-to-child-component.component';
+import { SendDataChildToParentComponentComponent } from './send-data-child-to-parent-component/send-data-child-to-parent-component.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,6 +44,7 @@ import { SendDataParentToChildComponentComponent } from './send-data-parent-to-c
     MaterialUiInAngularComponent,
     TodoListInAngularComponent,
     SendDataParentToChildComponentComponent,
+    SendDataChildToParentComponentComponent,
   ],
   imports: [
     BrowserModule,

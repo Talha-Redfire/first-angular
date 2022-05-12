@@ -35,9 +35,12 @@
 ></app-send-data-parent-to-child-component> -->
 
 <!-- Re Use Of Components -->
-
+<!-- 
 <div *ngFor="let task of TaskList">
   <app-send-data-parent-to-child-component
     [Item]="task"
   ></app-send-data-parent-to-child-component>
-</div>
+</div> -->
+<app-send-data-child-to-parent-component
+  (updateDataEvent)="childToparent($event)"
+></app-send-data-child-to-parent-component>

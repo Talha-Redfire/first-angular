@@ -25,6 +25,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { TodoListInAngularComponent } from './todo-list-in-angular/todo-list-in-angular.component';
 import { SendDataParentToChildComponentComponent } from './send-data-parent-to-child-component/send-data-parent-to-child-component.component';
 import { SendDataChildToParentComponentComponent } from './send-data-child-to-parent-component/send-data-child-to-parent-component.component';
+import { TwoWaybindingComponent } from './two-waybinding/two-waybinding.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +46,7 @@ import { SendDataChildToParentComponentComponent } from './send-data-child-to-pa
     TodoListInAngularComponent,
     SendDataParentToChildComponentComponent,
     SendDataChildToParentComponentComponent,
+    TwoWaybindingComponent,
   ],
   imports: [
     BrowserModule,

@@ -26,6 +26,7 @@ import { TodoListInAngularComponent } from './todo-list-in-angular/todo-list-in-
 import { SendDataParentToChildComponentComponent } from './send-data-parent-to-child-component/send-data-parent-to-child-component.component';
 import { SendDataChildToParentComponentComponent } from './send-data-child-to-parent-component/send-data-child-to-parent-component.component';
 import { TwoWaybindingComponent } from './two-waybinding/two-waybinding.component';
+import { TemplateReferenceVariableComponent } from './template-reference-variable/template-reference-variable.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,6 +48,7 @@ import { TwoWaybindingComponent } from './two-waybinding/two-waybinding.componen
     SendDataParentToChildComponentComponent,
     SendDataChildToParentComponentComponent,
     TwoWaybindingComponent,
+    TemplateReferenceVariableComponent,
   ],
   imports: [
     BrowserModule,

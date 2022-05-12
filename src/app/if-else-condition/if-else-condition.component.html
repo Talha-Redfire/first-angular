@@ -1,0 +1,9 @@
+<p>if-else-condition works!</p>
+
+<h1 *ngIf="show; then ifBlock; else elseBlock">Hello World</h1>
+<br />
+<ng-template #ifBlock>Hello</ng-template>
+<ng-template #elseBlock>world</ng-template>
+
+<br />
+<button (click)="showFunction()">Hide / Show Headin</button>

@@ -15,6 +15,8 @@ import { SwitchCasesinAngularComponent } from './switch-casesin-angular/switch-c
 import { ForLoopInAngularComponent } from './for-loop-in-angular/for-loop-in-angular.component';
 import { NestedLoopAngularComponent } from './nested-loop-angular/nested-loop-angular.component';
 import { DynamicStyleComponent } from './dynamic-style/dynamic-style.component';
+import { HeaderComponentComponent } from './header-component/header-component.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,8 +31,9 @@ import { DynamicStyleComponent } from './dynamic-style/dynamic-style.component';
     ForLoopInAngularComponent,
     NestedLoopAngularComponent,
     DynamicStyleComponent,
+    HeaderComponentComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, UserAuthModule],
+  imports: [BrowserModule, AppRoutingModule, UserAuthModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

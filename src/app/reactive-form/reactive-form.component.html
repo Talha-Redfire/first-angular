@@ -9,7 +9,7 @@
 
       <div class="col-lg-12 login-form">
         <div class="col-lg-12 login-form">
-          <form #loginFrom="ngForm" (ngSubmit)="FormHandler(loginFrom.value)">
+          <form [FormGroup]="LoginFrom">
             <div class="form-group">
               <label class="form-control-label">USERNAME</label>
               <input

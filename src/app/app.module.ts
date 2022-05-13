@@ -28,8 +28,7 @@ import { SendDataChildToParentComponentComponent } from './send-data-child-to-pa
 import { TwoWaybindingComponent } from './two-waybinding/two-waybinding.component';
 import { TemplateReferenceVariableComponent } from './template-reference-variable/template-reference-variable.component';
 import { BasicOfPipesComponent } from './basic-of-pipes/basic-of-pipes.component';
-import { AdvancedPipesComponent } from './advanced-pipes/advanced-pipes.component';
-import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,8 +52,7 @@ import { TemplateDrivenFormComponent } from './template-driven-form/template-dri
     TwoWaybindingComponent,
     TemplateReferenceVariableComponent,
     BasicOfPipesComponent,
-    AdvancedPipesComponent,
-    TemplateDrivenFormComponent,
+    ReactiveFormComponent,
   ],
   imports: [
     BrowserModule,

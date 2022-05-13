@@ -29,6 +29,7 @@ import { TwoWaybindingComponent } from './two-waybinding/two-waybinding.componen
 import { TemplateReferenceVariableComponent } from './template-reference-variable/template-reference-variable.component';
 import { BasicOfPipesComponent } from './basic-of-pipes/basic-of-pipes.component';
 import { AdvancedPipesComponent } from './advanced-pipes/advanced-pipes.component';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,6 +54,7 @@ import { AdvancedPipesComponent } from './advanced-pipes/advanced-pipes.componen
     TemplateReferenceVariableComponent,
     BasicOfPipesComponent,
     AdvancedPipesComponent,
+    TemplateDrivenFormComponent,
   ],
   imports: [
     BrowserModule,
